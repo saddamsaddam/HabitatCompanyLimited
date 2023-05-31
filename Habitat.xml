@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\My Soft\Habitata\dist\HabitatLimited.jar</jar>
+  <outfile>D:\My Soft\Habitata\Habitatoutjarfile\Habitat.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\My Soft\Habitata\dist\IMG_6520.ico</icon>
+  <classPath>
+    <mainClass>Registration.loginForm</mainClass>
+    <cp>lib/mssql-jdbc-9.4.0.jre16.jar</cp>
+    <cp>lib/mssql-jdbc-10.2.0.jre17.jar</cp>
+    <cp>lib/java-json-schema.jar</cp>
+    <cp>lib/json-simple-1.1.jar</cp>
+    <cp>lib/gson-2.2.2.jar</cp>
+    <cp>lib/jxdatepicker-support-1.0.jar</cp>
+    <cp>lib/org-jdesktop-swingx.jar</cp>
+    <cp>lib/jcalendar-1.4.jar</cp>
+    <cp>lib/jdatepicker-1.3.4.jar</cp>
+    <cp>lib/itextpdf-5.5.9.jar</cp>
+    <cp>lib/font-asian-7.1.4.jar</cp>
+    <cp>lib/font-asian-7.1.3.jar</cp>
+    <cp>lib/opencv/</cp>
+    <cp>lib/sqljdbc_9.4.0.0_enu.zip</cp>
+    <cp>lib/sphinx4-core-5prealpha.jar</cp>
+    <cp>lib/sphinx4-data-1.0.0.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>true</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>17</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
